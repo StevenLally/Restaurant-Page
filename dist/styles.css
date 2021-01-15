@@ -6,21 +6,47 @@ ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 li {
   display: inline;
-  margin: 0px 20px;
-  padding: 10px;
+  margin: 0;
+  padding: 10px 30px;
+}
+
+img {
+  width: 60%;
 }
 
 li:hover {
-  background-color: lightgray;
+  background-color: #353535;
+  color: #a7a7a7;
   text-decoration: underline;
   cursor: pointer;
 }
 
 .active {
-  background-color: lightgray;
+  background-color: #a7a7a7;
   text-decoration: underline;
+}
+
+.home-tab {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home-tab p {
+  width: 60%;
+  margin: 15px auto;
+}
+
+.menu-tab {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-tab {
+  margin-top: 30px;
+  text-align: center;
 }
